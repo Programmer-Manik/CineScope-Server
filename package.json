@@ -1,5 +1,5 @@
 {
-  "name": "batch-3-apollo-flix-conceptual-session",
+  "name": "CineScope-Server",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/server.js",
@@ -7,6 +7,7 @@
     "start:prod": "node ./dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "lint": "npx eslint .",
+    "build": "tsc",
     "lint:fix": "npx eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
